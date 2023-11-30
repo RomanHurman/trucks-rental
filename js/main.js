@@ -102,6 +102,5 @@ document.addEventListener("DOMContentLoaded", function () {
       scrollIndicator.classList.remove("active");
     }
   }
-
   window.addEventListener("scroll", handleScroll);
 });

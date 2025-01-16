@@ -672,8 +672,8 @@ button[type="submit"]:hover {
   }
 
   .caller-img {
-    top: 20px;
-    left: 25px;
+    top: 15px;
+    left: 20px;
   }
 
   .phone__numbers {
@@ -772,6 +772,19 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 570px) {
+  .header {
+    min-height: 580px;
+    box-shadow: inset 0 0 0 200vw rgba(0, 0, 0, .5);
+  }
+
+  .company__name {
+    color: #FFCA00;
+  }
+
+  .login {
+    color: #FFCA00;
+  }
+
   .menu__list {
     display: none;
     position: absolute;
@@ -779,7 +792,7 @@ button[type="submit"]:hover {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: #1a50a8;
+    background-color: #cccccc;
     z-index: 5;
   }
 
@@ -831,10 +844,6 @@ button[type="submit"]:hover {
     padding: 10px 30px 10px 0;
   }
 
-  .header {
-    min-height: 580px;
-  }
-
   .header-slider__description {
     margin-bottom: 20px;
     font-size: 20px;
@@ -845,6 +854,7 @@ button[type="submit"]:hover {
     font-size: 35px;
     line-height: 35px;
     margin-bottom: 10px;
+    color: #ffffff;
   }
 
   .specialised__items {
@@ -864,6 +874,18 @@ button[type="submit"]:hover {
     line-height: 40px;
   }
 
+  .about {
+    box-shadow: inset 0 0 0 200vw rgba(0, 0, 0, .5);
+  }
+
+  .about__title {
+    color: #ffffff;
+  }
+
+  .about__item-text:hover {
+    color: #FFCA00;
+  }
+
   .contact-map {
     width: 100% !important;
   }
@@ -875,6 +897,11 @@ button[type="submit"]:hover {
 
   .call-animation {
     bottom: 2%;
+  }
+
+  .caller-img {
+    top: 15px;
+    left: 20px;
   }
 }
 
